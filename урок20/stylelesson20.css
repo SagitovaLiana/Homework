@@ -1,0 +1,17 @@
+.header {
+  background: darksalmon;
+  height: 60px; 
+}
+
+img {
+  height: 300px;
+  width: 400px;
+}
+.blockquote {
+  background: aquamarine;
+}
+.footer {
+  background: rgb(141, 104, 176);
+  height: 300px;
+  color: azure;
+}
