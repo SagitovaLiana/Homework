@@ -1,0 +1,23 @@
+* {
+  block-size: border-box;
+}
+
+.bigbox {
+  background-color: #fad6f4;
+  margin: 5px;
+  border: 1px solid #110e0ef7;
+  border-radius: 15px 0px 0px 15px;
+  max-height: 500px;
+  overflow: auto;
+}
+
+.minibox {
+  display: inline-block;
+  background-color: rgb(230, 201, 164);
+  padding: 25px;
+  margin: 10px;
+  max-height: 230px;
+  max-width: 250px;
+  border-radius: 15px;
+  box-shadow: inset 1px 1px 10px #575252;
+}
