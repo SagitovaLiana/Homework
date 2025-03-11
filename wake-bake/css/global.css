@@ -1,0 +1,177 @@
+:root {
+  --general-text: #312C27;
+  --accent-text: #1F1711;
+  --genera-bg:  #FFF9F4;
+  --accent-bg:  #FFE0CB;
+  --accent-color: #FFA55C;
+}
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 5vh;
+}
+.body {
+  font-family: "Montserrat","Arial", sans-serif;
+  line-height: 1.5;
+  font-size: 16px;
+  color: var(--general-text);
+  background: var(--genera-bg);
+  }
+  .body--opened-menu{
+    overflow: hidden;
+    /* Это, чтобы при открытом бургер-меню, излишки страницы */
+  }
+  .body--opened-modal{
+    overflow: hidden;
+  }
+  .wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .main {
+    flex-grow: 1;
+  }
+  .container {
+    max-width: 1310px;  
+    /* (1280px-это сама ширина,20px-это паддинг) */
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+  }
+  .title{
+    font-family: 'Gabriola';
+    font-size: 74px; 
+    line-height: 61px;
+    color: var(--accent-text);
+  }
+  .button{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    /* Чтобы кнопка была длинной */
+    width: 100%;
+    height: 62px;
+    border-radius: 60px;
+    padding: 18px 36px;
+    background: var(--accent-color);
+    /* Форма кнопки */
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    color: var(--general-text);
+    /* Текст кнопки */
+
+    transition: all .4s;
+  }
+  .button:hover{
+    background: #ff9138;
+  }
+  .hero_button{
+    max-width: 358px;
+    /* Размер задаю отдельно, потому что кнокпа несколько раз используется */
+    width: 100%;
+  }
+    /* ==========================Modal============================= */
+    .modal {
+      position: fixed;
+      inset: 0;
+      background: #00000068;
+      z-index: 10;
+      padding: 15px;
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      opacity: 0;
+      visibility: hidden;
+      transition: all .6s;
+    }
+    .body--opened-modal .modal{
+      opacity: 1;
+      visibility: visible;
+    }
+    .modal__window {
+      background: var(--genera-bg);
+      border-radius: 20px;
+      padding: 0 60px 60px;
+      position: relative;
+      max-width: 428px;
+    }
+    .modal__cancel {
+      position: absolute;
+      top:20px; 
+      right:20px;
+    }
+    .modal__cancel:hover{
+      transition: all .4s;
+    }
+    .modal__cancel:hover path,
+    .modal__cancel:hover rect {
+      stroke: #AC907A;
+    }
+    /* path-это сам крестик, а rect-это ободок */
+    .modal__img {
+      margin: -65px 0 15px 13px;
+      max-width: 100%;
+    }
+    .modal__title {
+      font-family: 'Gabriola';
+      font-size: 42px; 
+      line-height: 38px;
+      color: var(--accent-text);
+      margin-bottom: 10px;
+    }
+    .modal__text {
+      margin-bottom: 30px;
+    }
+    .modal__form {
+      gap: 10px;
+    }
+    .field{
+      position: relative;
+    }
+    .field span{
+      position: absolute;
+      top: 12px;
+      left: 28px;
+      font-size: 11px;
+      line-height: 16px;
+      color: #AC907A;
+      opacity: 0;
+      transition: all .4s;
+      visibility: hidden;
+    }
+    .field_input {
+      display: block;
+      background:  #00000000;
+      border: 1px solid #AC907A;
+      border-radius: 100px;
+      padding: 19px 42px 19px 28px;
+      width: 100%;
+      height: 62px;
+      font-size: 16px;
+      margin-bottom: 10px;
+      transition: all .4s;
+    }
+    .field_input::placeholder{
+      color: #AC907A;
+      transition: all .4s;
+    }
+    .field_input:hover{
+      border-color: var(--accent-color);
+    }
+    .field_input:hover::placeholder{
+      color:var(--accent-color)
+    }
+    .field_input:focus{
+      padding: 26px 42px 12px 28px;
+    }
+    .field_input:focus + span{
+      opacity: 1;
+      visibility: visible;
+    }
+  

@@ -1,0 +1,101 @@
+.footer {
+  background: #AB8261;
+  padding: 60px 0 66px;
+  color: var(--genera-bg);
+}
+.footer__inner {
+  display: grid;
+  gap: 40px 15px;
+  justify-content: space-between;
+  grid-template-columns: .9fr .9fr 1.1fr auto;
+}
+.footer__col:first-child {
+  margin-top: -30px;
+}
+.footer_logo {
+  display: block;
+  max-width: 240px;
+}
+.footer_logo img {
+  max-width: 100%;
+  /* Чтобы картинка внутри на всю ширину растянулась */
+}
+.footer__logo-text {
+  margin-bottom: 20px;
+}
+.socials{
+  line-height: 0;
+}
+.socials__list {
+  display: flex;
+  gap: 15px;
+}
+.socials__link path{
+  transition: all .4s;
+}
+.socials__link:hover path{
+  fill: var(--accent-color);
+}
+.footer__col-list {
+  margin-top: -5px;
+}
+.footer__col-item {
+  margin-bottom: 10px;
+}
+.footer__col-item:last-child {
+  margin-bottom: 0;
+}
+.footer__col-link {
+  display: block;
+  padding: 5px 0;
+  position: relative;
+  z-index: 1;
+}
+.footer__col-link::before{
+  content: ' ';
+  position: absolute;
+  /* Это мы его натягиваем, вырывая из потока */
+  top: -8px;
+  left: -13px;
+  z-index: -1;
+  /* Это его позиционирование, в самом углу и сзади */
+  height: 34px;
+  width: 34px;
+  background: var(--accent-color);
+  border-radius: 50%;
+  /* Это его внешний вид */
+  opacity: 0;
+  /* Это, чтобы элемент не было видно */
+  transition: all .4s;
+}
+.footer__col-link:hover::before{
+  opacity: 1;
+  /* Это, чтобы элемент БЫЛО видно, но при наведении */
+}
+.footer__contact-list {
+  font-style: normal;
+}
+.footer__contact-item {
+  margin-bottom: 10px;
+}
+.footer__contact-item:last-child {
+  margin-bottom: 0;
+}
+.footer__col-tel {
+  font-style: normal;
+  margin-bottom: 47px;
+}
+.footer__col-number {
+  display: block;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.6;
+  transition: all .4s;
+}
+.footer__col-number:hover{
+  color: var(--accent-color);
+}
+.footer__col-copy {
+  font-style: normal;
+  color: #DEC5B1;
+}
