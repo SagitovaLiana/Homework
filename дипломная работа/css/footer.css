@@ -1,0 +1,31 @@
+.footer {
+  background: var(--general-text);
+  color: var(--general-bg);
+  padding: 30px 0 60px;
+}
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_info img{
+  display: block;
+  margin-bottom: 20px;
+}
+.footer_info p {
+  max-width: 785px;
+}
+.footer_info h6{
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.footer__tel {
+  font-style: normal;
+  font-size: 24px;
+}
+.footer__tel a{
+  display: block;
+  font-weight: 700;
+  margin-top: 10px;
+}
+  
