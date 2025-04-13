@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Dyson</title>
+</head>
+
+<body class="body">
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__top">
+        <div class="container">
+          <div class="header__top-inner">
+            <div class="header__menu">
+              <a href="#" class="header__menu-burger">
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10.4167 14.582H39.5834" stroke="white" stroke-width="2.58934" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path d="M10.4167 25H39.5834" stroke="white" stroke-width="2.58934" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path d="M10.4167 35.416H39.5834" stroke="white" stroke-width="2.58934" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </a>
+              <img src="img/icons/logo.png" alt="Логотип">
+            </div>
+            <nav class="header__nav">
+              <ul class="header__nav-list">
+                <li class="header__nav-item">
+                  <a href="#" class="header__nav-link favorites">
+                    <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M17.7789 34.6195L5.64721 21.9863C2.23006 18.428 2.44525 12.5934 6.11441 9.31844C9.75449 6.06941 15.2738 6.70032 18.1503 10.6943L18.6339 11.3657L19.1176 10.6943C21.9942 6.70032 27.5133 6.06941 31.1535 9.31844C34.8227 12.5934 35.0379 18.428 31.6206 21.9863L19.489 34.6195C19.0167 35.1112 18.2512 35.1112 17.7789 34.6195Z"
+                        stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </a>
+                  <span class="favorites-counter"></span>
+                </li>
+                <li class="header__nav-item">
+                  <a href="#" class="header__nav-link basket">
+                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M4.5 13.5C4.5 11.8431 5.84314 10.5 7.5 10.5H28.5C30.1569 10.5 31.5 11.8431 31.5 13.5V30C31.5 31.6569 30.1569 33 28.5 33H7.5C5.84314 33 4.5 31.6569 4.5 30V13.5Z"
+                        stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      <path d="M12 15V9C12 5.68629 14.6863 3 18 3C21.3137 3 24 5.68629 24 9V14.5332" stroke="white"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </a>
+                  <span class="basket-item"></span>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <section class="hero">
+        <div class="container">
+          <nav class="hero__breadcrumb breadcrumb">
+            <ol class="breadcrumb__list">
+              <li class="breadcrumb__item">
+                <a href="#" class="breadcrumb__link">
+                  Главная
+                </a>
+              </li>
+              <li class="breadcrumb__item">
+                <a href="#" class="breadcrumb__link">
+                  Фены Dyson Supersonic
+                </a>
+              </li>
+              <li class="breadcrumb__item">
+                <a href="#" class="breadcrumb__link">
+                  Фен Dyson Supersonic HD07 с 5 насадками в дорожном чехле и расческами
+                </a>
+              </li>
+            </ol>
+          </nav>
+          <div class="hero__main product-card" id="product7">
+            <div class="hero__gallery gallery">
+              <div class="gallery__slider-mini swiper">
+                <div class="gallery__wrapper-mini swiper-wrapper">
+                  <div class="gallery__slide-mini swiper-slide">
+                    <img src="img/swiper/hairdryer-min.jpg" alt="">
+                  </div>
+                  <div class="gallery__slide-mini swiper-slide">
+                    <img src="img/swiper/nozzle1-min.png" alt="">
+                  </div>
+                  <div class="gallery__slide-mini swiper-slide">
+                    <img src="img/swiper/nozzle2-min.jpg" alt="">
+                  </div>
+                  <div class="gallery__slide-mini swiper-slide">
+                    <img src="img/swiper/nozzle3-min.jpg" alt="">
+                  </div>
+                  <div class="gallery__slide-mini swiper-slide">
+                    <img src="img/swiper/nozzle4-min.jpg" alt="">
+                  </div>
+                  <div class="gallery__slide-mini swiper-slide">
+                    <img src="img/swiper/girl-min.jpg" alt="">
+                  </div>
+                </div>
+                <button class="gallery__prev">
+                  <svg width="19" height="11" viewBox="0 0 19 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M8.77664 0.757801L0.613636 9.30952C0.00619888 9.94589 0.457255 11 1.33699 11H17.663C18.5427 11 18.9938 9.94589 18.3864 9.30952L10.2234 0.757801C9.82942 0.345101 9.17058 0.345101 8.77664 0.757801Z"
+                      fill="#C5358C" />
+                  </svg>
+                </button>
+                <button class="gallery__next">
+                  <svg width="19" height="11" viewBox="0 0 19 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M8.77664 10.2422L0.613636 1.69048C0.00619888 1.05411 0.457255 0 1.33699 0H17.663C18.5427 0 18.9938 1.05411 18.3864 1.69048L10.2234 10.2422C9.82942 10.6549 9.17058 10.6549 8.77664 10.2422Z"
+                      fill="#C5358C" />
+                  </svg>
+                </button>
+              </div>
+              <div class="gallery__slider swiper">
+                <div class="gallery__wrapper swiper-wrapper">
+                  <div class="gallery__slide swiper-slide">
+                    <img src="img/swiper/hairdryer-max.jpg" alt="">
+                  </div>
+                  <div class="gallery__slide swiper-slide">
+                    <img src="img/swiper/nozzle1-max.jpg" alt="">
+                  </div>
+                  <div class="gallery__slide swiper-slide">
+                    <img src="img/swiper/nozzle2-max.jpg" alt="">
+                  </div>
+                  <div class="gallery__slide swiper-slide">
+                    <img src="img/swiper/nozzle3-max.jpg" alt="">
+                  </div>
+                  <div class="gallery__slide swiper-slide">
+                    <img src="img/swiper/nozzle4-max.jpg" alt="">
+                  </div>
+                  <div class="gallery__slide swiper-slide">
+                    <img src="img/swiper/girl-max.jpg" alt="">
+                  </div>
+                </div>
+                <button class="gallery__button-like button-like" data-product-id="buttonlike">
+                  <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M24.9865 48.6556L7.93652 30.9008C3.13403 25.8999 3.43646 17.7 8.59312 13.0973C13.7089 8.53109 21.4658 9.41777 25.5085 15.0309L26.1881 15.9745L26.8678 15.0309C30.9106 9.41777 38.6673 8.53109 43.7832 13.0973C48.9399 17.7 49.2423 25.8999 44.4397 30.9008L27.3898 48.6556C26.7261 49.3465 25.6502 49.3465 24.9865 48.6556Z"
+                      stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </button>
+              </div>
+              <div class="hero__gallery-pagination swiper-pagination"></div>
+            </div>
+            <h1 class="hero__title title">Фен Dyson Supersonic HD07 с 5 насадками в дорожном чехле и расческами</h1>
+            <div class="hero__text-container">
+              <p class="hero__text">Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку
+                встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов. Это позволяет
+                пользоваться устройством без вреда. В комплекте 5 насадок, которые подходят для укладки и сушки на
+                разных
+                режимах. Есть практичный черный чехол, предназначенный для аккуратной перевозки и хранения. Расчески
+                можно
+                использовать отдельно от девайса или во время сушки с целью предотвратить запутывание.</p>
+              <button class="hero__text-btn">Показать описание</button>
+            </div>
+            <div class="hero__information information ">
+              <div class="information__availability">
+                <span>В наличии</span>
+              </div>
+              <div class="information__price">
+                <div class="information__price-before">47 990 Р</div>
+                <div class="information__price-after">47 990 Р</div>
+              </div>
+              <button class="information__button-like button-like" data-product-id="buttonlike">
+                <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M24.9865 48.6556L7.93652 30.9008C3.13403 25.8999 3.43646 17.7 8.59312 13.0973C13.7089 8.53109 21.4658 9.41777 25.5085 15.0309L26.1881 15.9745L26.8678 15.0309C30.9106 9.41777 38.6673 8.53109 43.7832 13.0973C48.9399 17.7 49.2423 25.8999 44.4397 30.9008L27.3898 48.6556C26.7261 49.3465 25.6502 49.3465 24.9865 48.6556Z"
+                    stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </button>
+              <div class="information__button">
+                <div class="information__button-control quantity_inner">
+                  <button class="information__button-minus bt_minus">
+                    <svg width="20" height="2" viewBox="0 0 20 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M19 1H1" stroke="#111111" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                  </button>
+                  <input type="text" value="1" size="2" class="information__button-quantity quantity"
+                    data-max-count="20">
+                  <button class="information__button-plus bt_plus">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.0003 19L10.0346 10M10.0003 1L10.0346 10M10.0346 10H19M10.0346 10H0.999999"
+                        stroke="#111111" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                  </button>
+                </div>
+                <button class="information__button-basket hero__button-basket">В корзину
+                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M3.75 11.25C3.75 9.86929 4.86929 8.75 6.25 8.75H23.75C25.1307 8.75 26.25 9.86929 26.25 11.25V25C26.25 26.3807 25.1307 27.5 23.75 27.5H6.25C4.86929 27.5 3.75 26.3807 3.75 25V11.25Z"
+                      stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M10 12.5V7.5C10 4.73857 12.2386 2.5 15 2.5C17.7614 2.5 20 4.73857 20 7.5V12.111"
+                      stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main class="main">
+      <section class="main__about about">
+        <div class="container">
+          <div class="about__inner">
+            <ul class="about__tab-controls tab-controls">
+              <li class="tab-controls__item">
+                <a href="#tab1" class="tab-controls__link tab-controls__link--active">Комплектация</a>
+              </li>
+              <li class="tab-controls__item">
+                <a href="#tab2" class="tab-controls__link">Характеристики</a>
+              </li>
+              <li class="tab-controls__item">
+                <a href="#tab3" class="tab-controls__link">Доставка</a>
+              </li>
+              <li class="tab-controls__item">
+                <a href="#tab4" class="tab-controls__link">Оплата</a>
+              </li>
+              <li class="tab-controls__item">
+                <a href="#tab5" class="tab-controls__link">Правила эксплуатации</a>
+              </li>
+              <li class="tab-controls__item">
+                <a href="#tab6" class="tab-controls__link">Гарантия</a>
+              </li>
+              <li class="tab-controls__item">
+                <a href="#tab7" class="tab-controls__link">Сертификаты</a>
+              </li>
+            </ul>
+          </div>
+          <div class="about__tab-content">
+            <div class="tab-content tab-content--show" id="tab1">
+              <div class="tab-content__package">
+                <div class="tab-content__package-item nozzle1">
+                  <img src="img/sec.about/nozzle1.jpg" alt="Насадка-гребень" class="tab-content__package-img">
+                  <div class="tab-content__package-info">
+                    <h2 class="tab-content__package-title title">Комплектация</h2>
+                    <p class="tab-content__package-text">Главное отличие фена Dyson в быстром и безопасном высушивании
+                      волос.
+                      В рукоятку встроен датчик температуры, благодаря которому она не поднимается.</p>
+                  </div>
+                </div>
+                <div class="tab-content__package-item nozzle2">
+                  <img src="img/sec.about/nozzle2.jpg" alt="Насадка для направленного потока"
+                    class="tab-content__package-img">
+                  <div class="tab-content__package-info">
+                    <h2 class="tab-content__package-title title">Комплектация</h2>
+                    <p class="tab-content__package-text">Главное отличие фена Dyson в быстром и безопасном высушивании
+                      волос.
+                      В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов.
+                    </p>
+                  </div>
+                </div>
+                <div class="tab-content__package-item nozzle3">
+                  <img src="img/sec.about/nozzle3.jpg" alt="Насадка для бережного высушивания"
+                    class="tab-content__package-img">
+                  <div class="tab-content__package-info">
+                    <h2 class="tab-content__package-title title">Комплектация</h2>
+                    <p class="tab-content__package-text">Главное отличие фена Dyson в быстром и безопасном высушивании
+                      волос.
+                    </p>
+                  </div>
+                </div>
+                <div class="tab-content__package-item nozzle4">
+                  <img src="img/sec.about/nozzle4.jpg" alt="Диффузор" class="tab-content__package-img">
+                  <div class="tab-content__package-info">
+                    <h2 class="tab-content__package-title title">Комплектация</h2>
+                    <p class="tab-content__package-text">Главное отличие фена Dyson в быстром и безопасном высушивании
+                      волос.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-content" id="tab2">
+              <ul class="tab-content__desc">
+                <li class="tab-content__desc-item">
+                  <div class="tab-content__desc-characteristic">Длина шнура</div>
+                  <div class="tab-content__desc-param">2,2 м</div>
+                </li>
+                <li class="tab-content__desc-item">
+                  <div class="tab-content__desc-characteristic">Время беспроводной работы</div>
+                  <div class="tab-content__desc-param">30 минут</div>
+                </li>
+                <li class="tab-content__desc-item">
+                  <div class="tab-content__desc-characteristic">Время для полного заряда</div>
+                  <div class="tab-content__desc-param">70 минут</div>
+                </li>
+                <li class="tab-content__desc-item">
+                  <div class="tab-content__desc-characteristic">Напряжение</div>
+                  <div class="tab-content__desc-param">10.8-16.8 В</div>
+                </li>
+                <li class="tab-content__desc-item">
+                  <div class="tab-content__desc-characteristic">Время для зарядки на 90 %</div>
+                  <div class="tab-content__desc-param">40 минут</div>
+                </li>
+                <li class="tab-content__desc-item">
+                  <div class="tab-content__desc-characteristic">Вес</div>
+                  <div class="tab-content__desc-param">1 кг</div>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-content" id="tab3">
+              <div class="tab-content__delivery">
+                <div class="tab-content__delivery-msc">
+                  <h3 class="tab-content__delivery-title title">Доставка по Москве</h3>
+                  <ul class="tab-content__delivery-list">
+                    <li class="tab-content__delivery-item">Доставка продукции по Москве и МО в течении 2 часов в день
+                      заказа или в любой удобный день.</li>
+                    <li class="tab-content__delivery-item">Стоимость доставки по Москве – 0 р.</li>
+                    <li class="tab-content__delivery-item">Стоимость доставки за МКАД – 500 р. до 10 км.</li>
+                    <li class="tab-content__delivery-item">Стоимость доставки более 10 км – рассчитывается отдельно
+                      оператором.</li>
+                    <li class="tab-content__delivery-item">Оплата возможна при получении курьеру после проверки
+                      продукции.</li>
+                  </ul>
+                </div>
+                <div class="tab-content__delivery-region">
+                  <h3 class="tab-content__delivery-title title">Доставка в регионы</h3>
+                  <ul class="tab-content__delivery-list">
+                    <li class="tab-content__delivery-item">Стоимость доставки в регионы осуществляется компанией
+                      boxberry и рассчитывается отдельно оператором.</li>
+                    <li class="tab-content__delivery-item">Оплата возможна при получении курьеру после проверки
+                      продукцииии.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="tab-content" id="tab4">
+              <div class="tab-content__payment">
+                <p class="tab-content__payment-text">Главное отличие фена Dyson в быстром и безопасном высушивании
+                  волос. В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов.
+                  Главное отличие фена Dyson в быстром и безопасном высушивании волос. </p>
+                <h6 class="tab-content__payment-title">Способы оплаты:</h6>
+                <ol class="tab-content__payment-list">
+                  <li class="tab-content__payment-item">В рукоятку встроен датчик температуры</li>
+                  <li class="tab-content__payment-item">Благодаря которому она не поднимается выше 100 градусов</li>
+                  <li class="tab-content__payment-item">Главное отличие фена Dyson в быстром и безопасном высушивании
+                    волос</li>
+                  <li class="tab-content__payment-item">В рукоятку встроен датчик температуры</li>
+                </ol>
+                <p class="tab-content__payment-text">Благодаря которому она не поднимается выше 100 градусов. Главное
+                  отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры,
+                  благодаря которому она не поднимается выше 100 градусов. Главное отличие фена Dyson в быстром и
+                  безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она не
+                  поднимается выше 100 градусов. </p>
+              </div>
+            </div>
+            <div class="tab-content" id="tab5">
+              <div class="tab-content__rules">
+                <p class="tab-content__rules-text">Главное отличие фена Dyson в быстром и безопасном высушивании волос.
+                  В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов.
+                  Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик
+                  температуры, благодаря которому она не поднимается выше 100 градусов. Главное отличие фена Dyson в
+                  быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она
+                  не поднимается выше 100 градусов. Главное отличие фена Dyson в быстром и безопасном высушивании волос.
+                  В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов.
+                  Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик
+                  температуры, благодаря которому она не поднимается выше 100 градусов.</p>
+              </div>
+            </div>
+            <div class="tab-content" id="tab6">
+              <div class="tab-content__warranty">
+                <p class="tab-content__warranty-text">Главное отличие фена Dyson в быстром и безопасном высушивании
+                  волос.
+                  В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов.
+                  Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик
+                  температуры, благодаря которому она не поднимается выше 100 градусов. Главное отличие фена Dyson в
+                  быстром и безопасном высушивании волос. В рукоятку встроен датчик температуры, благодаря которому она
+                  не поднимается выше 100 градусов. Главное отличие фена Dyson в быстром и безопасном высушивании волос.
+                  В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов.
+                  Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик
+                  температуры, благодаря которому она не поднимается выше 100 градусов.</p>
+              </div>
+            </div>
+            <div class="tab-content" id="tab7">
+              <div class="tab-content__certificate">
+                <img src="img/sec.about/certificate1.jpg" alt="Сертификат1" class="tab-content__certificate-img">
+                <img src="img/sec.about/certificate2.jpg" alt="Сертификат2" class="tab-content__certificate-img">
+                <img src="img/sec.about/certificate3.jpg" alt="Сертификат3" class="tab-content__certificate-img">
+                <img src="img/sec.about/certificate4.jpg" alt="Сертификат4" class="tab-content__certificate-img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main__faq faq">
+        <div class="container">
+          <div class="faq__inner">
+            <h2 class="faq__title title">FAQ — Часто задаваемые вопросы</h2>
+            <ul class="faq__accordion-list accordion-list">
+              <!-- это разворачивающаяса штука -->
+              <li class="accordion-list__item">
+                <a class="accordion-list__control" href="#">
+                  <h3 class="accordion-list__control-title">Главное отличие фена Dyson в быстром и безопасном
+                    высушивании волос?</h3>
+                  <div class="accordion-list__control-icon">
+                    <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M20 1C20 0.447715 19.5523 0 19 0C18.4477 0 18 0.447715 18 1V18H1C0.447715 18 0 18.4477 0 19C0 19.5523 0.447715 20 1 20H18V37C18 37.5523 18.4477 38 19 38C19.5523 38 20 37.5523 20 37V20H37C37.5523 20 38 19.5523 38 19C38 18.4477 37.5523 18 37 18H20V1Z"
+                        fill="#111111" />
+                    </svg>
+                  </div>
+                </a>
+                <div class="accordion-list__content">
+                  <p class="accordion-list__content-text">
+                    Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик
+                    температуры, благодаря которому она не поднимается выше 100 градусов. В комплекте 5 насадок, которые
+                    подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для
+                    аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки
+                    с
+                    целью предотвратить запутывание.
+                  </p>
+                </div>
+              </li>
+              <li class="accordion-list__item">
+                <a class="accordion-list__control" href="#">
+                  <h3 class="accordion-list__control-title">В рукоятку встроен датчик температуры, благодаря которому
+                    она не поднимается выше 100 градусов?</h3>
+                  <div class="accordion-list__control-icon">
+                    <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M20 1C20 0.447715 19.5523 0 19 0C18.4477 0 18 0.447715 18 1V18H1C0.447715 18 0 18.4477 0 19C0 19.5523 0.447715 20 1 20H18V37C18 37.5523 18.4477 38 19 38C19.5523 38 20 37.5523 20 37V20H37C37.5523 20 38 19.5523 38 19C38 18.4477 37.5523 18 37 18H20V1Z"
+                        fill="#111111" />
+                    </svg>
+                  </div>
+                </a>
+                <div class="accordion-list__content">
+                  <p class="accordion-list__content-text">
+                    Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик
+                    температуры, благодаря которому она не поднимается выше 100 градусов. В комплекте 5 насадок, которые
+                    подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для
+                    аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки
+                    с
+                    целью предотвратить запутывание.
+                  </p>
+                </div>
+              </li>
+              <li class="accordion-list__item">
+                <a class="accordion-list__control" href="#">
+                  <h3 class="accordion-list__control-title">Главное отличие фена Dyson в быстром и безопасном
+                    высушивании волос?</h3>
+                  <div class="accordion-list__control-icon">
+                    <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M20 1C20 0.447715 19.5523 0 19 0C18.4477 0 18 0.447715 18 1V18H1C0.447715 18 0 18.4477 0 19C0 19.5523 0.447715 20 1 20H18V37C18 37.5523 18.4477 38 19 38C19.5523 38 20 37.5523 20 37V20H37C37.5523 20 38 19.5523 38 19C38 18.4477 37.5523 18 37 18H20V1Z"
+                        fill="#111111" />
+                    </svg>
+                  </div>
+                </a>
+                <div class="accordion-list__content">
+                  <p class="accordion-list__content-text">
+                    Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик
+                    температуры, благодаря которому она не поднимается выше 100 градусов. В комплекте 5 насадок, которые
+                    подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для
+                    аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки
+                    с
+                    целью предотвратить запутывание.
+                  </p>
+                </div>
+              </li>
+              <li class="accordion-list__item">
+                <a class="accordion-list__control" href="#">
+                  <h3 class="accordion-list__control-title">Главное отличие фена Dyson в быстром и безопасном
+                    высушивании волос?</h3>
+                  <div class="accordion-list__control-icon">
+                    <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M20 1C20 0.447715 19.5523 0 19 0C18.4477 0 18 0.447715 18 1V18H1C0.447715 18 0 18.4477 0 19C0 19.5523 0.447715 20 1 20H18V37C18 37.5523 18.4477 38 19 38C19.5523 38 20 37.5523 20 37V20H37C37.5523 20 38 19.5523 38 19C38 18.4477 37.5523 18 37 18H20V1Z"
+                        fill="#111111" />
+                    </svg>
+                  </div>
+                </a>
+                <div class="accordion-list__content">
+                  <p class="accordion-list__content-text">
+                    Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик
+                    температуры, благодаря которому она не поднимается выше 100 градусов. В комплекте 5 насадок, которые
+                    подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для
+                    аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки
+                    с
+                    целью предотвратить запутывание.
+                  </p>
+                </div>
+              </li>
+              <li class="accordion-list__item">
+                <a class="accordion-list__control" href="#">
+                  <h3 class="accordion-list__control-title">В рукоятку встроен датчик температуры, благодаря которому
+                    она не поднимается выше 100 градусов?</h3>
+                  <div class="accordion-list__control-icon">
+                    <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M20 1C20 0.447715 19.5523 0 19 0C18.4477 0 18 0.447715 18 1V18H1C0.447715 18 0 18.4477 0 19C0 19.5523 0.447715 20 1 20H18V37C18 37.5523 18.4477 38 19 38C19.5523 38 20 37.5523 20 37V20H37C37.5523 20 38 19.5523 38 19C38 18.4477 37.5523 18 37 18H20V1Z"
+                        fill="#111111" />
+                    </svg>
+                  </div>
+                </a>
+                <div class="accordion-list__content">
+                  <p class="accordion-list__content-text">
+                    Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик
+                    температуры, благодаря которому она не поднимается выше 100 градусов. В комплекте 5 насадок, которые
+                    подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для
+                    аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки
+                    с
+                    целью предотвратить запутывание.
+                  </p>
+                </div>
+              </li>
+              <li class="accordion-list__item">
+                <a class="accordion-list__control" href="#">
+                  <h3 class="accordion-list__control-title">Главное отличие фена Dyson в быстром и безопасном
+                    высушивании волос?</h3>
+                  <div class="accordion-list__control-icon">
+                    <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M20 1C20 0.447715 19.5523 0 19 0C18.4477 0 18 0.447715 18 1V18H1C0.447715 18 0 18.4477 0 19C0 19.5523 0.447715 20 1 20H18V37C18 37.5523 18.4477 38 19 38C19.5523 38 20 37.5523 20 37V20H37C37.5523 20 38 19.5523 38 19C38 18.4477 37.5523 18 37 18H20V1Z"
+                        fill="#111111" />
+                    </svg>
+                  </div>
+                </a>
+                <div class="accordion-list__content">
+                  <p class="accordion-list__content-text">
+                    Главное отличие фена Dyson в быстром и безопасном высушивании волос. В рукоятку встроен датчик
+                    температуры, благодаря которому она не поднимается выше 100 градусов. В комплекте 5 насадок, которые
+                    подходят для укладки и сушки на разных режимах. Есть практичный черный чехол, предназначенный для
+                    аккуратной перевозки и хранения. Расчески можно использовать отдельно от девайса или во время сушки
+                    с
+                    целью предотвратить запутывание.
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <div class="faq__video">
+              <img class="faq__video-bcg" src="img/sec.faq/video.jpg" alt="">
+              <div class="faq__video-control">
+                <a class="faq__video-button" data-fslightbox href="media/ОбзорDysonAirwrap.mp4">
+                  <svg width="102" height="104" viewBox="0 0 102 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M0 98.9211V5.30587C0 1.53768 4.01005 -0.876297 7.34008 0.887269L98.4022 49.1133C101.998 51.0178 101.935 56.1915 98.2926 58.0068L7.23049 103.396C3.90635 105.053 0 102.635 0 98.9211Z"
+                      fill="white" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main__products products">
+        <div class="container">
+          <h3 class="main__products-title title">Похожие товары</h3>
+          <ul class="main__products-list">
+            <li class="main__products-item">
+              <div class="product-card" id="product1">
+                <div class="product-card__inner">
+                  <img src="img/sec.products/product1.jpg" alt="" class="product-card__img">
+                  <div class="product-card__information information">
+                    <h6 class="information__title product-card__title">Фен Dyson Supersonic HD07 синий медный с 5
+                      насадками в чехле и
+                      расческамия</h6>
+                    <div class="information__availability product-card__availability">
+                      <span>В наличии</span>
+                    </div>
+                    <div class="information__price product-card__price">
+                      <div class="information__price-before product-card__price-before">69 990 Р</div>
+                      <div class="information__price-after product-card__price-after">59 990Р</div>
+                    </div>
+                    <div class="information__button product-card__button">
+                      <div class="information__button-control quantity_inner product-card__button-control">
+                        <button class="information__button-minus bt_minus">
+                          <svg width="20" height="2" viewBox="0 0 20 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19 1H1" stroke="#111111" stroke-width="2" stroke-linecap="round" />
+                          </svg>
+                        </button>
+                        <input type="text" value="1" size="2" class="information__button-quantity quantity"
+                          data-max-count="20">
+                        <button class="information__button-plus bt_plus">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.0003 19L10.0346 10M10.0003 1L10.0346 10M10.0346 10H19M10.0346 10H0.999999"
+                              stroke="#111111" stroke-width="2" stroke-linecap="round" />
+                          </svg>
+                        </button>
+                      </div>
+                      <button class="information__button-basket product-card__button-basket">В корзину</button>
+                    </div>
+                    <button class="product-card__button-like button-like">
+                      <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M17.7785 34.6195L5.64672 21.9863C2.22957 18.428 2.44476 12.5934 6.11392 9.31844C9.754 6.06941 15.2733 6.70032 18.1498 10.6943L18.6335 11.3657L19.1171 10.6943C21.9937 6.70032 27.5128 6.06941 31.153 9.31844C34.8222 12.5934 35.0374 18.428 31.6202 21.9863L19.4885 34.6195C19.0163 35.1112 18.2507 35.1112 17.7785 34.6195Z"
+                          stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="main__products-item">
+              <div class="product-card" id="product2">
+                <div class="product-card__inner">
+                  <img src="img/sec.products/product2.jpg" alt="" class="product-card__img">
+                  <div class="product-card__information information">
+                    <h6 class="information__title product-card__title">Фен Dyson Supersonic HD07 c 5 насадками и
+                      подставкой</h6>
+                    <div class="information__availability product-card__availability">
+                      <span>В наличии</span>
+                    </div>
+                    <div class="information__price product-card__price">
+                      <div class="information__price-before product-card__price-before">51 990 Р</div>
+                      <div class="information__price-after product-card__price-after">47 990Р</div>
+                    </div>
+                    <div class="information__button product-card__button">
+                      <div class="information__button-control quantity_inner product-card__button-control">
+                        <button class="information__button-minus bt_minus">
+                          <svg width="20" height="2" viewBox="0 0 20 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19 1H1" stroke="#111111" stroke-width="2" stroke-linecap="round" />
+                          </svg>
+                        </button>
+                        <input type="text" value="1" size="2" class="information__button-quantity quantity"
+                          data-max-count="20">
+                        <button class="information__button-plus bt_plus">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.0003 19L10.0346 10M10.0003 1L10.0346 10M10.0346 10H19M10.0346 10H0.999999"
+                              stroke="#111111" stroke-width="2" stroke-linecap="round" />
+                          </svg>
+                        </button>
+                      </div>
+                      <button class="information__button-basket product-card__button-basket">В корзину</button>
+                    </div>
+                    <button class="product-card__button-like button-like">
+                      <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M17.7785 34.6195L5.64672 21.9863C2.22957 18.428 2.44476 12.5934 6.11392 9.31844C9.754 6.06941 15.2733 6.70032 18.1498 10.6943L18.6335 11.3657L19.1171 10.6943C21.9937 6.70032 27.5128 6.06941 31.153 9.31844C34.8222 12.5934 35.0374 18.428 31.6202 21.9863L19.4885 34.6195C19.0163 35.1112 18.2507 35.1112 17.7785 34.6195Z"
+                          stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="main__products-item">
+              <div class="product-card" id="product3">
+                <div class="product-card__inner">
+                  <img src="img/sec.products/product3.jpg" alt="" class="product-card__img">
+                  <div class="product-card__information information">
+                    <h6 class="information__title product-card__title">Фен Dyson Supersonic 4 насадки HD03 с чехлом для
+                      хранения цвет сирень
+                    </h6>
+                    <div class="information__availability product-card__availability">
+                      <span>В наличии</span>
+                    </div>
+                    <div class="information__price product-card__price">
+                      <div class="information__price-before product-card__price-before">49 990 Р</div>
+                      <div class="information__price-after product-card__price-after">46 990Р</div>
+                    </div>
+                    <div class="information__button product-card__button">
+                      <div class="information__button-control quantity_inner product-card__button-control">
+                        <button class="information__button-minus bt_minus">
+                          <svg width="20" height="2" viewBox="0 0 20 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19 1H1" stroke="#111111" stroke-width="2" stroke-linecap="round" />
+                          </svg>
+                        </button>
+                        <input type="text" value="1" size="2" class="information__button-quantity quantity"
+                          data-max-count="20">
+                        <button class="information__button-plus bt_plus">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.0003 19L10.0346 10M10.0003 1L10.0346 10M10.0346 10H19M10.0346 10H0.999999"
+                              stroke="#111111" stroke-width="2" stroke-linecap="round" />
+                          </svg>
+                        </button>
+                      </div>
+                      <button class="information__button-basket product-card__button-basket">В корзину</button>
+                    </div>
+                    <button class="product-card__button-like button-like button-like-active">
+                      <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M17.7785 34.6195L5.64672 21.9863C2.22957 18.428 2.44476 12.5934 6.11392 9.31844C9.754 6.06941 15.2733 6.70032 18.1498 10.6943L18.6335 11.3657L19.1171 10.6943C21.9937 6.70032 27.5128 6.06941 31.153 9.31844C34.8222 12.5934 35.0374 18.428 31.6202 21.9863L19.4885 34.6195C19.0163 35.1112 18.2507 35.1112 17.7785 34.6195Z"
+                          stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="main__products-item">
+              <div class="product-card" id="product4">
+                <div class="product-card__inner">
+                  <img src="img/sec.products/product1.jpg" alt="" class="product-card__img">
+                  <div class="product-card__information information">
+                    <h6 class="information__title product-card__title">Фен Dyson Supersonic HD07 синий медный с 5
+                      насадками в чехле и
+                      расческамия</h6>
+                    <div class="information__availability product-card__availability">
+                      <span>В наличии</span>
+                    </div>
+                    <div class="information__price product-card__price">
+                      <div class="information__price-before product-card__price-before">69 990 Р</div>
+                      <div class="information__price-after product-card__price-after">59 990Р</div>
+                    </div>
+                    <div class="information__button product-card__button">
+                      <div class="information__button-control quantity_inner product-card__button-control">
+                        <button class="information__button-minus bt_minus">
+                          <svg width="20" height="2" viewBox="0 0 20 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19 1H1" stroke="#111111" stroke-width="2" stroke-linecap="round" />
+                          </svg>
+                        </button>
+                        <input type="text" value="1" size="2" class="information__button-quantity quantity"
+                          data-max-count="20">
+                        <button class="information__button-plus bt_plus">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.0003 19L10.0346 10M10.0003 1L10.0346 10M10.0346 10H19M10.0346 10H0.999999"
+                              stroke="#111111" stroke-width="2" stroke-linecap="round" />
+                          </svg>
+                        </button>
+                      </div>
+                      <button class="information__button-basket product-card__button-basket">В корзину</button>
+                    </div>
+                    <button class="product-card__button-like button-like">
+                      <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M17.7785 34.6195L5.64672 21.9863C2.22957 18.428 2.44476 12.5934 6.11392 9.31844C9.754 6.06941 15.2733 6.70032 18.1498 10.6943L18.6335 11.3657L19.1171 10.6943C21.9937 6.70032 27.5128 6.06941 31.153 9.31844C34.8222 12.5934 35.0374 18.428 31.6202 21.9863L19.4885 34.6195C19.0163 35.1112 18.2507 35.1112 17.7785 34.6195Z"
+                          stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="main__products-item">
+              <div class="product-card" id="product5">
+                <div class="product-card__inner">
+                  <img src="img/sec.products/product2.jpg" alt="" class="product-card__img">
+                  <div class="product-card__information information">
+                    <h6 class="information__title product-card__title">Фен Dyson Supersonic HD07 c 5 насадками и
+                      подставкой</h6>
+                    <div class="information__availability product-card__availability">
+                      <span>В наличии</span>
+                    </div>
+                    <div class="information__price product-card__price">
+                      <div class="information__price-before product-card__price-before">51 990 Р</div>
+                      <div class="information__price-after product-card__price-after">47 990Р</div>
+                    </div>
+                    <div class="information__button product-card__button">
+                      <div class="information__button-control quantity_inner product-card__button-control">
+                        <button class="information__button-minus bt_minus">
+                          <svg width="20" height="2" viewBox="0 0 20 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19 1H1" stroke="#111111" stroke-width="2" stroke-linecap="round" />
+                          </svg>
+                        </button>
+                        <input type="text" value="1" size="2" class="information__button-quantity quantity"
+                          data-max-count="20">
+                        <button class="information__button-plus bt_plus">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.0003 19L10.0346 10M10.0003 1L10.0346 10M10.0346 10H19M10.0346 10H0.999999"
+                              stroke="#111111" stroke-width="2" stroke-linecap="round" />
+                          </svg>
+                        </button>
+                      </div>
+                      <button class="information__button-basket product-card__button-basket">В корзину</button>
+                    </div>
+                    <button class="product-card__button-like button-like">
+                      <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M17.7785 34.6195L5.64672 21.9863C2.22957 18.428 2.44476 12.5934 6.11392 9.31844C9.754 6.06941 15.2733 6.70032 18.1498 10.6943L18.6335 11.3657L19.1171 10.6943C21.9937 6.70032 27.5128 6.06941 31.153 9.31844C34.8222 12.5934 35.0374 18.428 31.6202 21.9863L19.4885 34.6195C19.0163 35.1112 18.2507 35.1112 17.7785 34.6195Z"
+                          stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="main__products-item">
+              <div class="product-card" id="product6">
+                <div class="product-card__inner">
+                  <img src="img/sec.products/product3.jpg" alt="" class="product-card__img">
+                  <div class="product-card__information information">
+                    <h6 class="information__title product-card__title">Фен Dyson Supersonic 4 насадки HD03 с чехлом для
+                      хранения цвет сирень
+                    </h6>
+                    <div class="information__availability product-card__availability">
+                      <span>В наличии</span>
+                    </div>
+                    <div class="information__price product-card__price">
+                      <div class="information__price-before product-card__price-before">49 990 Р</div>
+                      <div class="information__price-after product-card__price-after">46 990Р</div>
+                    </div>
+                    <div class="information__button product-card__button">
+                      <div class="information__button-control quantity_inner product-card__button-control">
+                        <button class="information__button-minus bt_minus">
+                          <svg width="20" height="2" viewBox="0 0 20 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19 1H1" stroke="#111111" stroke-width="2" stroke-linecap="round" />
+                          </svg>
+                        </button>
+                        <input type="text" value="1" size="2" class="information__button-quantity quantity"
+                          data-max-count="20">
+                        <button class="information__button-plus bt_plus">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.0003 19L10.0346 10M10.0003 1L10.0346 10M10.0346 10H19M10.0346 10H0.999999"
+                              stroke="#111111" stroke-width="2" stroke-linecap="round" />
+                          </svg>
+                        </button>
+                      </div>
+                      <button class="information__button-basket product-card__button-basket">В корзину</button>
+                    </div>
+                    <button class="product-card__button-like button-like button-like-active">
+                      <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M17.7785 34.6195L5.64672 21.9863C2.22957 18.428 2.44476 12.5934 6.11392 9.31844C9.754 6.06941 15.2733 6.70032 18.1498 10.6943L18.6335 11.3657L19.1171 10.6943C21.9937 6.70032 27.5128 6.06941 31.153 9.31844C34.8222 12.5934 35.0374 18.428 31.6202 21.9863L19.4885 34.6195C19.0163 35.1112 18.2507 35.1112 17.7785 34.6195Z"
+                          stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <button class="main__button-more">
+            <span class="button-more-text">Показать еще</span>
+            <span class="button-more-icon">
+              <svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M25.2031 25.722L3 4.44398L4.38381 3L26.6919 24.3786V6.44733H28.6919V27.722H6.53635V25.722H25.2031Z"
+                  fill="#111111" />
+              </svg>
+            </span>
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__img"><img src="img/icons/logo.png" alt="Логотип"></div>
+          <div class="footer_info">
+            <h6>Интернет-магазин RusDyson, 2022 © Все права защищены.</h6>
+            <p> Использование материалов с данного сайта разрешено только с согласия владельца. Владелец оставляет за
+              собой право воспользоваться 146 статьей УК РФ при нарушении авторских и смежных прав. Все предоставленная
+              на сайте информация ни при каких условиях не является публичной офертой, определяемой положениями Статьи
+              437 (2) Гражданского кодекса РФ.</p>
+          </div>
+          <address class="footer__tel">
+            <div class="footer__tel-inner">
+              Отдел логистики:
+              <a href="tel:+79998004554">+7 (999) 800-45-54</a>
+            </div>
+          </address>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/fslightbox.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

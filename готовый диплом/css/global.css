@@ -1,0 +1,41 @@
+:root {
+  --general-text: #111111;
+  --accent-text: #68AE5C;
+  --non-accent-text:#ababab;
+  --general-bg:  #FFFFFF;
+  --accent-bg:  #F5F5F5;
+  --accent-color: #C5358C;
+}
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 5vh;
+}
+body {
+  font-family:'Open Sans', sans-serif;
+  font-weight:300;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--general-text);
+  background: var(--general-bg);
+  }
+  .wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .main {
+    flex-grow: 1;
+  }
+  .container {
+    max-width: 1390px;  
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+  }
+  .title{
+    font-family: 'NAMU Pro';
+    line-height: 1.1;
+    font-weight: 900;
+  }
